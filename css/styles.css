@@ -21,16 +21,43 @@ body {
   padding: 0px 5px;
 }
 
+#calc > #screen > div.multiline {
+  word-break: break-all;
+  height: auto;
+}
+
+#calc > #screen > div.singleline-scroll {
+  white-space: nowrap;
+  height: 2em;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#calc > #screen > div.singleline-clip {
+  word-break: break-all;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#calc > #screen > div.singleline-ellipsis {
+  white-space: nowrap;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#calc > #screen > div {
+  line-height: 1.5em;
+  min-height: 1.5em;
+}
+
 #calc > #screen > #screen-calculation {
   font-size: 20px;
-  line-height: 30px;
-  height: 30px;
 }
 
 #calc > #screen > #screen-value {
-  font-size: 40px;
-  line-height: 60px;
-  height: 60px;
+  font-size: 30px;
 }
 
 #calc > #calc-buttons > .calc-button-row {
