@@ -42,6 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const update_screen_value = (button_value) => {
     switch(button_value) {
+      case '.':
+        if (state.screen.value.indexOf(button_value) >= 0)
+          return
+        break
+    }
+
+    switch(button_value) {
       case 'CE':
         state.screen.calculation = ''
         state.screen.value = ''
