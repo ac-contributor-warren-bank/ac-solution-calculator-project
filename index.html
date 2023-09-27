@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>Calculator</title>
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" href="https://anniecannons.org/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
   </head>
-
   <body>
-    <div class="calc">
-      <section class="screen">0</section>
-
-      <section class="calc-buttons">
+    <div id="calc">
+      <section id="screen">
+        <div id="screen-calculation"></div>
+        <div id="screen-value"></div>
+      </section>
+      <section id="calc-buttons">
         <div class="calc-button-row">
-          <button class="calc-button double">C</button>
-          <button class="calc-button">←</button>
-          <button class="calc-button">÷</button>
+          <button class="calc-button calc-button-value">CE</button>
+          <button class="calc-button calc-button-value">C</button>
+          <button class="calc-button calc-button-value">←</button>
+          <button class="calc-button calc-button-operator">÷</button>
         </div>
         <div class="calc-button-row">
-          <button class="calc-button">7</button>
-          <button class="calc-button">8</button>
-          <button class="calc-button">9</button>
-          <button class="calc-button">×</button>
+          <button class="calc-button calc-button-value">7</button>
+          <button class="calc-button calc-button-value">8</button>
+          <button class="calc-button calc-button-value">9</button>
+          <button class="calc-button calc-button-operator">×</button>
         </div>
         <div class="calc-button-row">
-          <button class="calc-button">4</button>
-          <button class="calc-button">5</button>
-          <button class="calc-button">6</button>
-          <button class="calc-button">-</button>
+          <button class="calc-button calc-button-value">4</button>
+          <button class="calc-button calc-button-value">5</button>
+          <button class="calc-button calc-button-value">6</button>
+          <button class="calc-button calc-button-operator">-</button>
         </div>
         <div class="calc-button-row">
-          <button class="calc-button">1</button>
-          <button class="calc-button">2</button>
-          <button class="calc-button">3</button>
-          <button class="calc-button">+</button>
+          <button class="calc-button calc-button-value">1</button>
+          <button class="calc-button calc-button-value">2</button>
+          <button class="calc-button calc-button-value">3</button>
+          <button class="calc-button calc-button-operator">+</button>
         </div>
         <div class="calc-button-row">
-          <button class="calc-button triple">0</button>
-          <button class="calc-button">=</button>
+          <button class="calc-button calc-button-value triple">0</button>
+          <button class="calc-button calc-button-operator">=</button>
         </div>
       </section>
     </div>
