@@ -1,11 +1,5 @@
 # Calculator Project
 
-- - - -
-
-[display `gh-pages` branch](https://ac-contributor-warren-bank.github.io/ac-solution-calculator-project/index.html) in web browser
-
-- - - -
-
 ##### Many thanks to Brian Holt for creating this project!!
 
 ## Project Description
